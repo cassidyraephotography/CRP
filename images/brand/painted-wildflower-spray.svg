@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="132" viewBox="0 0 220 132" fill="none">
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#dce1c8" stop-opacity=".8"/>
+      <stop offset=".58" stop-color="#aebc96" stop-opacity=".74"/>
+      <stop offset="1" stop-color="#859778" stop-opacity=".64"/>
+    </linearGradient>
+    <radialGradient id="pink" cx=".3" cy=".16" r=".95">
+      <stop stop-color="#fff0e7" stop-opacity=".84"/>
+      <stop offset=".55" stop-color="#efb0b4" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#c97d89" stop-opacity=".68"/>
+    </radialGradient>
+    <radialGradient id="blue" cx=".3" cy=".16" r=".95">
+      <stop stop-color="#f2f3e9" stop-opacity=".88"/>
+      <stop offset=".56" stop-color="#adbed3" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#718ba7" stop-opacity=".66"/>
+    </radialGradient>
+    <radialGradient id="gold" cx=".3" cy=".14" r=".95">
+      <stop stop-color="#fff6d9" stop-opacity=".9"/>
+      <stop offset=".58" stop-color="#e8cd85" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#bb914e" stop-opacity=".68"/>
+    </radialGradient>
+    <radialGradient id="lavender" cx=".26" cy=".15" r=".95">
+      <stop stop-color="#f5eaf0" stop-opacity=".9"/>
+      <stop offset=".58" stop-color="#c9aeca" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#967d9c" stop-opacity=".65"/>
+    </radialGradient>
+    <filter id="paint" x="-40%" y="-40%" width="180%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency=".085" numOctaves="3" seed="37" result="pigment"/>
+      <feDisplacementMap in="SourceGraphic" in2="pigment" scale="5" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+      <feGaussianBlur in="rough" stdDeviation=".48" result="soft"/>
+      <feColorMatrix in="pigment" type="saturate" values="0" result="grain"/>
+      <feComponentTransfer in="grain" result="speckles">
+        <feFuncA type="table" tableValues="0 .34"/>
+      </feComponentTransfer>
+      <feComposite in="speckles" in2="soft" operator="in" result="pigment-speckles"/>
+      <feBlend in="soft" in2="pigment-speckles" mode="multiply"/>
+    </filter>
+    <filter id="wash" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.1"/>
+    </filter>
+    <path id="petal" d="M0 1C-4-3-10-12-9-19C-8-24-3-24 0-18C3-25 8-25 11-20C13-14 6-5 2 1C1 2 0 2 0 1Z"/>
+  </defs>
+  <g stroke="#9eaf88" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 118C42 103 56 94 77 90S112 98 132 81S168 54 204 43" stroke-width="2.8" stroke-opacity=".78"/>
+    <path d="M13 116C42 101 56 92 77 88S112 96 132 79S168 52 204 41" stroke="#e2e6d2" stroke-width=".8" stroke-opacity=".82"/>
+    <path d="M49 101C46 82 42 64 39 47M95 90C99 72 103 55 107 39M146 68C148 53 153 37 160 23M179 54C180 41 182 31 185 19" stroke-width="1.6" stroke-opacity=".76"/>
+    <path d="M45 81C35 76 31 70 32 64M49 87C59 81 63 75 64 69M97 71C87 66 84 60 86 54M101 76C112 70 116 64 117 58M147 54C138 49 135 43 137 37M151 59C161 53 165 47 166 41M180 39C171 35 168 29 170 24M183 43C192 38 196 32 197 27" stroke-width="1" stroke-opacity=".64"/>
+  </g>
+  <g fill="url(#leaf)" stroke="#849675" stroke-opacity=".3" stroke-width=".6" filter="url(#paint)">
+    <path d="M27 88C18 81 17 74 21 70C29 71 34 77 34 84C40 76 47 75 51 79C48 87 42 90 34 88Z"/>
+    <path d="M67 89C72 79 80 77 85 81C83 89 77 94 70 91C74 99 72 104 67 105C62 100 63 94 67 89Z"/>
+    <path d="M92 74C82 68 81 62 85 58C93 60 98 65 97 72C104 64 111 64 114 68C111 76 104 79 97 76Z"/>
+    <path d="M124 87C130 77 138 75 143 79C141 87 135 92 128 89C132 97 130 102 125 103C120 98 121 92 124 87Z"/>
+    <path d="M145 51C136 45 135 39 139 35C147 37 152 42 151 49C158 41 165 41 168 45C165 53 158 56 151 53Z"/>
+    <path d="M173 39C179 29 187 27 192 31C190 39 184 44 177 41C181 49 179 54 174 55C169 50 170 44 173 39Z"/>
+  </g>
+  <g transform="translate(39 47) scale(.82)" filter="url(#paint)">
+    <ellipse rx="24" ry="21" fill="url(#pink)" opacity=".4" filter="url(#wash)"/>
+    <g fill="url(#pink)" stroke="#c77b85" stroke-opacity=".035" stroke-width=".7">
+      <use href="#petal" transform="rotate(-11) scale(.94 1.12)"/>
+      <use href="#petal" transform="rotate(47) scale(1.1 .94)"/>
+      <use href="#petal" transform="rotate(108) scale(.88 1.08)"/>
+      <use href="#petal" transform="rotate(169) scale(1.12 .98)"/>
+      <use href="#petal" transform="rotate(226) scale(.94 1.1)"/>
+      <use href="#petal" transform="rotate(285) scale(1.08 .9)"/>
+      <use href="#petal" transform="rotate(331) scale(.78 1.04)"/>
+    </g>
+    <path d="M-4-1C-3-4 0-5 3-3C5-1 4 2 2 4C-1 5-4 3-4-1Z" fill="#c59a55" fill-opacity=".8"/>
+    <g fill="#806b49" fill-opacity=".66">
+      <circle cx="-2" cy="-1.5" r=".65"/><circle cx="1" cy="-2" r=".6"/>
+      <circle cx="2" cy="1" r=".65"/><circle cx="-1" cy="2" r=".55"/>
+    </g>
+  </g>
+  <g transform="translate(107 39) scale(.75)" filter="url(#paint)">
+    <ellipse rx="21" ry="22" fill="url(#blue)" opacity=".4" filter="url(#wash)"/>
+    <g fill="url(#blue)" stroke="#718aa6" stroke-opacity=".035" stroke-width=".7">
+      <path d="M-2 4C-10 1-15-5-12-10C-9-13-4-10-2-4C-4-12 0-18 5-16C10-13 7-7 3-2C8-7 15-8 17-3C19 2 13 6 5 6C13 4 19 8 17 13C14 17 8 13 2 8C6 14 5 19 0 20C-5 18-4 12-2 6C-6 13-11 14-14 10C-15 6-10 3-4 3Z"/>
+      <path d="M-8-7C-4-11 1-13 4-11" stroke="#f1f1e5" stroke-opacity=".55" stroke-width="1" fill="none"/>
+    </g>
+    <path d="M-3-1C-2-3 0-4 2-2C4 0 3 2 1 3C-1 4-3 2-3-1Z" fill="#d3b96d" fill-opacity=".82"/>
+  </g>
+  <g transform="translate(159 23) scale(.64)" filter="url(#paint)">
+    <ellipse rx="22" ry="20" fill="url(#gold)" opacity=".4" filter="url(#wash)"/>
+    <g fill="url(#gold)" stroke="#c29b59" stroke-opacity=".035" stroke-width=".7">
+      <use href="#petal" transform="rotate(-4) scale(.82 .96)"/>
+      <use href="#petal" transform="rotate(68) scale(.9 .8)"/>
+      <use href="#petal" transform="rotate(139) scale(.76 .94)"/>
+      <use href="#petal" transform="rotate(211) scale(.93 .82)"/>
+      <use href="#petal" transform="rotate(282) scale(.84 .92)"/>
+    </g>
+    <path d="M-4-1C-3-4-1-5 2-3C5-2 5 1 3 3C0 5-3 3-4-1Z" fill="#9e7847" fill-opacity=".8"/>
+  </g>
+  <g fill="url(#lavender)" opacity=".88" filter="url(#paint)">
+    <path d="M73 67C67 62 68 56 72 54C77 54 79 60 76 65C82 61 87 64 86 69C83 73 78 71 75 68C77 74 73 78 69 76C66 72 69 69 73 67Z"/>
+    <path d="M123 60C118 55 119 50 123 48C128 49 129 53 126 58C132 55 136 58 135 62C132 66 128 64 125 61C127 67 123 71 119 69C116 65 119 62 123 60Z"/>
+  </g>
+</svg>

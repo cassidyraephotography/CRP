@@ -1,0 +1,732 @@
+{
+  "sections": [
+    {
+      "id": "portraits",
+      "title": "Portraits & families",
+      "alt": "Portrait and family photography",
+      "images": [
+        {
+          "src": "/images/gallery/portraits-001.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-002.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-003.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-004.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-005.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-006.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-007.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-008.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-009.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-010.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-011.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-012.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-013.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-014.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-015.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-016.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-017.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-018.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-019.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-020.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-021.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-022.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-023.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-024.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-025.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-026.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-027.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-028.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-029.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-030.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-031.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-032.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-033.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-034.jpg",
+          "alt": "Portrait and family photography"
+        },
+        {
+          "src": "/images/gallery/portraits-035.jpg",
+          "alt": "Portrait and family photography"
+        }
+      ]
+    },
+    {
+      "id": "sam-and-ryan",
+      "title": "Sam & Ryan",
+      "alt": "Sam and Ryan wedding photography",
+      "images": [
+        {
+          "src": "/images/gallery/sam-and-ryan-001.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-002.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-003.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-004.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-005.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-006.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-007.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-008.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-009.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-010.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-011.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-012.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-013.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-014.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-015.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-016.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-017.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-018.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-019.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-020.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-021.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-022.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-023.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-024.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-025.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-026.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-027.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-028.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-029.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-030.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-031.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-032.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-033.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-034.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-035.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-036.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-037.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-038.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-039.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        },
+        {
+          "src": "/images/gallery/sam-and-ryan-040.jpg",
+          "alt": "Sam and Ryan wedding photography"
+        }
+      ]
+    },
+    {
+      "id": "madi-and-jay",
+      "title": "Madi & Jay",
+      "alt": "Madi and Jay wedding photography",
+      "images": [
+        {
+          "src": "/images/gallery/madi-and-jay-001.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-002.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-003.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-004.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-005.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-006.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-007.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-008.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-009.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-010.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-011.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-012.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-013.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-014.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-015.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-016.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-017.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-018.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-019.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-020.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-021.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-022.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-023.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-024.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-025.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-026.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-027.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-028.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-029.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-030.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-031.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-032.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-033.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-034.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-035.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-036.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-037.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-038.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-039.jpg",
+          "alt": "Madi and Jay wedding photography"
+        },
+        {
+          "src": "/images/gallery/madi-and-jay-040.jpg",
+          "alt": "Madi and Jay wedding photography"
+        }
+      ]
+    },
+    {
+      "id": "courtney-and-mike",
+      "title": "Courtney & Mike",
+      "alt": "Courtney and Mike wedding photography",
+      "images": [
+        {
+          "src": "/images/gallery/courtney-and-mike-001.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-002.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-003.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-004.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-005.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-006.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-007.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-008.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-009.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-010.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-011.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-012.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-013.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-014.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-015.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-016.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-017.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-018.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-019.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-020.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-021.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-022.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-023.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-024.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-025.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-026.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-027.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-028.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-029.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-030.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-031.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-032.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-033.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-034.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-035.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-036.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-037.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-038.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-039.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-040.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-041.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-042.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-043.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-044.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-045.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-046.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-047.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-048.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-049.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-050.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-051.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-052.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-053.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-054.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-055.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-056.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-057.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-058.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-059.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        },
+        {
+          "src": "/images/gallery/courtney-and-mike-060.jpg",
+          "alt": "Courtney and Mike wedding photography"
+        }
+      ]
+    }
+  ]
+}

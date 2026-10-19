@@ -1,0 +1,591 @@
+:root {
+  color-scheme: light;
+  --paper: #faf9f6;
+  --paper-deep: #f2f0eb;
+  --ink: #45423a;
+  --plum: #8b5362;
+  --plum-soft: #a56c76;
+  --line: #d9d4c7;
+  --rose: #bd6e78;
+  --blue: #7186a8;
+  --gold: #b99a4d;
+  --sage: #737f62;
+  --serif: "Baskerville", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --script: "Snell Roundhand", "Apple Chancery", "URW Chancery L", "Brush Script MT", cursive;
+  --page-width: 1220px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgb(250 249 246 / 10%), rgb(250 249 246 / 10%)),
+    url("/images/brand/linen2.jpg?v=linen-texture-2");
+  background-repeat: repeat;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.65;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.05em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid #9e6069;
+  outline-offset: 4px;
+}
+
+.page-width {
+  width: min(var(--page-width), calc(100% - 3rem));
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 10;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  transform: translateY(-160%);
+  background: var(--ink);
+  color: #fff;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-header {
+  position: relative;
+  display: flex;
+  width: min(1370px, calc(100% - 3rem));
+  min-height: 132px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-inline: auto;
+  border-bottom: 0;
+}
+
+.brand {
+  display: block;
+  width: 240px;
+  flex: 0 0 auto;
+}
+
+.brand img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 3vw, 3rem);
+}
+
+.footer-nav a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--plum);
+  font-family: var(--script);
+  font-weight: 400;
+  line-height: 1.2;
+  font-variant-caps: normal;
+  letter-spacing: 0;
+  opacity: 0.9;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--plum-soft);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+}
+
+.hero {
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  padding-block: clamp(1rem, 2vw, 2rem) clamp(4rem, 9vw, 8rem);
+}
+
+.hero-copy {
+  max-width: 900px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.hero-copy h1 {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: clamp(3.2rem, 6.5vw, 5.6rem);
+  color: var(--rose);
+}
+
+.hero-copy > p:not(.eyebrow) {
+  margin: 1.4rem 0 1.8rem;
+  color: var(--ink);
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+}
+
+.button-link {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 0.75rem 1.15rem;
+  border: 1px solid var(--rose);
+  background: var(--rose);
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.button-link:hover {
+  background: transparent;
+  color: var(--rose);
+}
+
+.hero-art {
+  position: relative;
+  width: min(100%, 900px);
+  min-width: 0;
+  margin: 0 auto;
+  --hero-art-inset: clamp(1.5rem, 5vw, 4.5rem);
+  --polaroid-bleed: clamp(2.5rem, 7vw, 5rem);
+  padding: var(--hero-art-inset);
+}
+
+.hero-art img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.polaroids {
+  position: absolute;
+  z-index: 1;
+  inset: calc(var(--hero-art-inset) - var(--polaroid-bleed));
+  overflow: hidden;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.polaroid {
+  position: absolute;
+  z-index: var(--stack-order);
+  top: var(--top);
+  left: var(--left);
+  display: block;
+  width: clamp(3.25rem, var(--width), 11rem);
+  padding: clamp(3px, 0.7vw, 7px);
+  padding-bottom: clamp(12px, 1.45vw, 18px);
+  background: #fffefa;
+  box-shadow: 0 3px 10px rgb(48 40 42 / 28%);
+  transform: translate3d(var(--start-x), var(--start-y), 0) rotate(var(--start-rotation));
+}
+
+.polaroid img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.hero-art.is-visible .polaroids,
+.hero-art.is-static .polaroids {
+  visibility: visible;
+}
+
+.hero-art.is-visible .polaroid {
+  animation: polaroid-glide var(--drop-duration) cubic-bezier(0.22, 0.68, 0.28, 1) var(--drop-delay) both;
+}
+
+.hero-art.is-static .polaroid {
+  opacity: 1;
+  transform: rotate(var(--rotation));
+}
+
+@keyframes polaroid-glide {
+  0% {
+    transform: translate3d(var(--start-x), var(--start-y), 0) rotate(var(--start-rotation));
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) rotate(var(--rotation));
+  }
+}
+
+.services-section {
+  position: relative;
+  background: transparent;
+}
+
+.services-inner {
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+  padding-block: clamp(3rem, 7vw, 5rem);
+  text-align: center;
+}
+
+.services-inner h2,
+.section-heading h2,
+.contact-intro h2 {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+}
+
+.services-inner h2 { color: var(--sage); }
+.section-heading h2 { color: var(--blue); }
+.contact-intro h2 { color: var(--rose); }
+
+.services-copy {
+  max-width: 760px;
+  color: var(--ink);
+}
+
+.services-copy p {
+  margin: 0;
+}
+
+.services-copy p + p {
+  margin-top: 0.8rem;
+  color: var(--sage);
+}
+
+.packages-section {
+  position: relative;
+  padding-block: clamp(4rem, 8vw, 7rem);
+  scroll-margin-top: 1rem;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.section-heading > p:last-child {
+  margin: 1rem 0 0;
+  color: var(--ink);
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.15rem;
+}
+
+.package-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #ded8c9;
+  background: #fffefa;
+  box-shadow: 0 8px 24px rgb(93 83 63 / 8%);
+}
+
+.package-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.package-copy {
+  padding: 1.4rem clamp(1rem, 2vw, 1.5rem) 1.75rem;
+  text-align: center;
+}
+
+.package-copy .eyebrow {
+  margin-bottom: 0.45rem;
+}
+
+.package-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.package-title-row h3 {
+  margin: 0;
+  color: var(--blue);
+  font-size: clamp(2rem, 3vw, 2.7rem);
+}
+
+.package-price {
+  margin: 0;
+  color: var(--gold);
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.package-copy > p:not(.eyebrow) {
+  margin: 0.8rem 0 0;
+  color: var(--ink);
+}
+
+.package-copy .package-fit {
+  min-height: 4.8em;
+  margin-top: 0.65rem !important;
+  font-size: 0.92rem;
+}
+
+.text-link {
+  color: var(--rose);
+  font-family: var(--script);
+  font-size: 1.25rem;
+  font-variant-caps: normal;
+  letter-spacing: 0;
+  opacity: 0.9;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
+}
+
+.wedding-note {
+  margin: 2rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  text-align: center;
+}
+
+.wedding-note a {
+  margin-left: 0.3rem;
+}
+
+.contact-section {
+  position: relative;
+  background: transparent;
+  scroll-margin-top: 0;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
+  gap: 2rem;
+  padding-block: clamp(4rem, 8vw, 7rem);
+}
+
+.contact-intro {
+  text-align: center;
+}
+
+.contact-intro h2 {
+  font-size: clamp(2.3rem, 4.5vw, 3.8rem);
+}
+
+.contact-intro > p:not(.eyebrow) {
+  max-width: 620px;
+  margin-inline: auto;
+  color: var(--ink);
+}
+
+.contact-intro .form-notice {
+  max-width: 620px;
+  margin-top: 2rem;
+  margin-inline: auto;
+  padding-top: 1rem;
+  border-top: 2px solid #d4a1a4;
+  font-size: 0.9rem;
+}
+
+.form-notice a {
+  color: var(--rose);
+  font-weight: 650;
+  text-underline-offset: 0.2em;
+}
+
+.inquiry-form {
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid #e0c9c2;
+  background: rgb(248 245 238 / 88%);
+  box-shadow: 0 8px 24px rgb(130 91 81 / 8%);
+}
+
+.form-field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.form-field label {
+  color: var(--sage);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.optional {
+  color: #74696a;
+  font-weight: 400;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 46px;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #c9c5b6;
+  border-radius: 0;
+  background: #fffdfa;
+}
+
+.form-field textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-status {
+  margin: 0;
+  color: var(--rose);
+  font-size: 0.9rem;
+}
+
+.form-submit {
+  justify-self: center;
+  cursor: pointer;
+}
+
+.site-footer {
+  padding-block: 2.5rem;
+  background: transparent;
+  border-top: 1px solid var(--line);
+}
+
+.footer-inner {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer-brand {
+  color: var(--rose);
+  font-family: var(--script);
+  font-size: 1.8rem;
+  font-variant-caps: normal;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.footer-nav {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem 1.25rem;
+  font-size: 0.85rem;
+}
+
+.footer-nav a {
+  color: var(--sage);
+}
+
+.copyright {
+  margin: 0;
+  color: #716768;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 650px) {
+  .page-width,
+  .site-header {
+    width: min(100% - 2rem, var(--page-width));
+  }
+
+  .site-header {
+    min-height: 88px;
+  }
+
+  .brand {
+    width: 180px;
+  }
+
+  .hero {
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .package-image {
+    height: 280px;
+  }
+
+  .package-copy .package-fit {
+    min-height: 0;
+  }
+
+  .wedding-note a {
+    display: inline-block;
+    margin: 0.35rem 0 0;
+  }
+
+}
+
+@media (max-width: 380px) {
+  .brand {
+    width: 156px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2.5rem, 11vw, 3rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .polaroid {
+    opacity: 1;
+    transform: rotate(var(--rotation));
+  }
+
+}

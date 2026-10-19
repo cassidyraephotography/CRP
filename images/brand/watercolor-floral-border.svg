@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="92" viewBox="0 0 360 92" fill="none">
+  <defs>
+    <radialGradient id="rose" cx="0" cy="0" r="1" gradientTransform="matrix(17 0 0 19 0 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4C3C0" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#D9828F" stop-opacity=".74"/>
+    </radialGradient>
+    <radialGradient id="coral" cx="0" cy="0" r="1" gradientTransform="matrix(15 0 0 18 0 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8D0B9" stop-opacity=".84"/>
+      <stop offset="1" stop-color="#E99B80" stop-opacity=".76"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="0" cy="0" r="1" gradientTransform="matrix(13 0 0 17 0 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7D2E3" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#8EA4C2" stop-opacity=".75"/>
+    </radialGradient>
+    <radialGradient id="gold" cx="0" cy="0" r="1" gradientTransform="matrix(12 0 0 14 0 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4E4A7" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#D8BC6B" stop-opacity=".8"/>
+    </radialGradient>
+    <radialGradient id="lavender" cx="0" cy="0" r="1" gradientTransform="matrix(11 0 0 14 0 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0CBDC" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#B69BB8" stop-opacity=".78"/>
+    </radialGradient>
+    <g id="flower">
+      <ellipse cy="-9" rx="4.4" ry="8" fill="url(#rose)" transform="rotate(-8)"/>
+      <ellipse cy="-9" rx="4.2" ry="7.7" fill="url(#rose)" transform="rotate(64)"/>
+      <ellipse cy="-9" rx="4.2" ry="7.7" fill="url(#rose)" transform="rotate(136)"/>
+      <ellipse cy="-9" rx="4.2" ry="7.7" fill="url(#rose)" transform="rotate(208)"/>
+      <ellipse cy="-9" rx="4.2" ry="7.7" fill="url(#rose)" transform="rotate(280)"/>
+      <circle r="2.4" fill="#D8B66A" fill-opacity=".8"/>
+    </g>
+  </defs>
+  <g stroke="#849477" stroke-linecap="round" stroke-width="1.4" opacity=".76">
+    <path d="M32 90C30 69 35 43 27 16"/>
+    <path d="M86 91C95 69 88 45 100 24"/>
+    <path d="M145 91C139 68 150 49 145 29"/>
+    <path d="M205 91C213 68 201 45 211 18"/>
+    <path d="M267 91C260 67 273 43 269 25"/>
+    <path d="M329 91C336 67 326 46 337 19"/>
+    <path d="M31 66C21 56 17 50 13 41M34 76C44 68 48 61 50 55"/>
+    <path d="M90 66C77 58 72 51 71 43M91 78C103 70 107 62 108 57"/>
+    <path d="M143 64C131 57 126 49 125 42M146 77C158 70 162 62 162 54"/>
+    <path d="M207 65C194 58 190 50 190 43M209 78C220 69 224 62 225 53"/>
+    <path d="M265 62C253 55 249 48 248 40M267 77C279 69 283 62 284 53"/>
+    <path d="M330 64C319 57 315 50 314 42M332 77C343 69 347 62 348 54"/>
+  </g>
+  <g fill="#87977A" fill-opacity=".68">
+    <ellipse cx="18" cy="54" rx="3" ry="7" transform="rotate(-45 18 54)"/>
+    <ellipse cx="46" cy="68" rx="3" ry="7" transform="rotate(43 46 68)"/>
+    <ellipse cx="76" cy="56" rx="3" ry="7" transform="rotate(-42 76 56)"/>
+    <ellipse cx="104" cy="70" rx="3" ry="7" transform="rotate(42 104 70)"/>
+    <ellipse cx="130" cy="55" rx="3" ry="7" transform="rotate(-40 130 55)"/>
+    <ellipse cx="158" cy="70" rx="3" ry="7" transform="rotate(42 158 70)"/>
+    <ellipse cx="194" cy="56" rx="3" ry="7" transform="rotate(-42 194 56)"/>
+    <ellipse cx="221" cy="68" rx="3" ry="7" transform="rotate(42 221 68)"/>
+    <ellipse cx="252" cy="54" rx="3" ry="7" transform="rotate(-42 252 54)"/>
+    <ellipse cx="280" cy="68" rx="3" ry="7" transform="rotate(42 280 68)"/>
+    <ellipse cx="318" cy="56" rx="3" ry="7" transform="rotate(-42 318 56)"/>
+    <ellipse cx="344" cy="68" rx="3" ry="7" transform="rotate(42 344 68)"/>
+  </g>
+  <g transform="translate(27 16) scale(.85)"><use href="#flower" fill="url(#rose)"/></g>
+  <g transform="translate(100 24) scale(.82)"><circle cy="-7" r="4.5" fill="url(#coral)"/><circle cx="7" cy="-2" r="4.5" fill="url(#coral)"/><circle cx="4" cy="6" r="4.5" fill="url(#coral)"/><circle cx="-5" cy="5" r="4.5" fill="url(#coral)"/><circle cx="-7" cy="-3" r="4.5" fill="url(#coral)"/><circle r="2.2" fill="#D8B66A"/></g>
+  <g transform="translate(145 29) scale(.78)"><circle cy="-6" r="4" fill="url(#blue)"/><circle cx="6" cy="-2" r="4" fill="url(#blue)"/><circle cx="4" cy="5" r="4" fill="url(#blue)"/><circle cx="-4" cy="5" r="4" fill="url(#blue)"/><circle cx="-6" cy="-2" r="4" fill="url(#blue)"/><circle r="2" fill="#D8B66A"/></g>
+  <g transform="translate(211 18) scale(.9)"><circle cy="-6" r="4.5" fill="url(#gold)"/><circle cx="6" cy="-2" r="4.5" fill="url(#gold)"/><circle cx="4" cy="5" r="4.5" fill="url(#gold)"/><circle cx="-4" cy="5" r="4.5" fill="url(#gold)"/><circle cx="-6" cy="-2" r="4.5" fill="url(#gold)"/><circle r="2" fill="#C99E58"/></g>
+  <g transform="translate(269 25) scale(.85)"><circle cy="-6" r="4.2" fill="url(#lavender)"/><circle cx="6" cy="-2" r="4.2" fill="url(#lavender)"/><circle cx="4" cy="5" r="4.2" fill="url(#lavender)"/><circle cx="-4" cy="5" r="4.2" fill="url(#lavender)"/><circle cx="-6" cy="-2" r="4.2" fill="url(#lavender)"/><circle r="2" fill="#D8B66A"/></g>
+  <g transform="translate(337 19) scale(.9)"><use href="#flower"/></g>
+</svg>
