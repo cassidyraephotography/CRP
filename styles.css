@@ -28,9 +28,10 @@ body {
   margin: 0;
   background-color: var(--paper);
   background-image:
-    linear-gradient(rgb(250 249 246 / 10%), rgb(250 249 246 / 10%)),
+    linear-gradient(rgb(250 249 246 / 35%), rgb(250 249 246 / 35%)),
     url("/images/brand/linen2.jpg?v=linen-texture-2");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: var(--ink);
   font-family: var(--serif);
   font-size: 1rem;
@@ -138,7 +139,7 @@ h3 {
 .hero {
   display: grid;
   gap: clamp(1.5rem, 3vw, 2.5rem);
-  padding-block: clamp(1rem, 2vw, 2rem) clamp(4rem, 9vw, 8rem);
+  padding-block: 0 clamp(4rem, 9vw, 8rem);
 }
 
 .hero-copy {
@@ -189,8 +190,9 @@ h3 {
   min-width: 0;
   margin: 0 auto;
   --hero-art-inset: clamp(1.5rem, 5vw, 4.5rem);
+  --hero-art-inset-top: clamp(1rem, 2vw, 2rem);
   --polaroid-bleed: clamp(2.5rem, 7vw, 5rem);
-  padding: var(--hero-art-inset);
+  padding: var(--hero-art-inset-top) var(--hero-art-inset);
 }
 
 .hero-art img {
@@ -203,7 +205,7 @@ h3 {
   position: absolute;
   z-index: 1;
   inset: calc(var(--hero-art-inset) - var(--polaroid-bleed));
-  overflow: hidden;
+  overflow: visible;
   visibility: hidden;
   pointer-events: none;
 }
@@ -218,7 +220,8 @@ h3 {
   padding: clamp(3px, 0.7vw, 7px);
   padding-bottom: clamp(12px, 1.45vw, 18px);
   background: #fffefa;
-  box-shadow: 0 3px 10px rgb(48 40 42 / 28%);
+  box-shadow: 0 3px 10px rgb(48 40 42 / 0%);
+  transition: box-shadow 180ms ease-out;
   transform: translate3d(var(--start-x), var(--start-y), 0) rotate(var(--start-rotation));
 }
 
@@ -239,16 +242,27 @@ h3 {
 
 .hero-art.is-static .polaroid {
   opacity: 1;
+  box-shadow: 0 3px 10px rgb(48 40 42 / 28%);
   transform: rotate(var(--rotation));
+}
+
+.polaroid.is-landed {
+  box-shadow: 0 3px 10px rgb(48 40 42 / 28%);
 }
 
 @keyframes polaroid-glide {
   0% {
-    transform: translate3d(var(--start-x), var(--start-y), 0) rotate(var(--start-rotation));
+    opacity: 0;
+    transform: translate3d(var(--start-x), var(--start-y), 0) rotate(var(--start-rotation)) scale(1.55);
+  }
+
+  14% {
+    opacity: 1;
   }
 
   100% {
-    transform: translate3d(0, 0, 0) rotate(var(--rotation));
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(var(--rotation)) scale(1);
   }
 }
 
@@ -547,7 +561,7 @@ h3 {
 
   .hero {
     gap: 1.5rem;
-    padding-top: 1.5rem;
+    padding-top: 0;
   }
 
   .package-image {
@@ -585,6 +599,7 @@ h3 {
 
   .polaroid {
     opacity: 1;
+    box-shadow: 0 3px 10px rgb(48 40 42 / 28%);
     transform: rotate(var(--rotation));
   }
 

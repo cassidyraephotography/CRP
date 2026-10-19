@@ -58,6 +58,14 @@ if (heroArt && polaroids) {
 
   const randomBetween = (minimum, maximum) =>
     minimum + Math.random() * (maximum - minimum);
+  const entryZones = photos.map((_, index) => index % 3);
+
+  for (let index = entryZones.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(randomBetween(0, index + 1));
+    [entryZones[index], entryZones[swapIndex]] = [entryZones[swapIndex], entryZones[index]];
+  }
+
+  let sideEntryCount = Math.floor(randomBetween(0, 2));
   let dropDelay = 0;
 
   photos.forEach((src, index) => {
@@ -71,12 +79,39 @@ if (heroArt && polaroids) {
     frame.style.setProperty("--width", `${width}%`);
     frame.style.setProperty("--rotation", `${randomBetween(-34, 34)}deg`);
     frame.style.setProperty("--start-rotation", `${randomBetween(-18, 18)}deg`);
-    frame.style.setProperty("--entry-x", `${randomBetween(8, 92)}%`);
-    frame.style.setProperty("--entry-y", `${randomBetween(0.55, 1.05)}`);
+    const entryZone = entryZones[index];
+    let entryX;
+    let entryY;
+
+    if (entryZone === 0) {
+      entryX = randomBetween(18, 82);
+      entryY = randomBetween(28, 36);
+    } else if (entryZone === 1) {
+      entryX = sideEntryCount++ % 2 === 0
+        ? randomBetween(18, 24)
+        : randomBetween(76, 82);
+      entryY = randomBetween(20, 80);
+    } else {
+      entryX = randomBetween(20, 80);
+      entryY = randomBetween(20, 80);
+    }
+
+    frame.style.setProperty("--entry-x", `${entryX}%`);
+    frame.style.setProperty("--entry-y", `${entryY}%`);
     frame.style.setProperty("--stack-order", String(index + 1));
     frame.style.setProperty("--drop-delay", `${dropDelay}ms`);
     frame.style.setProperty("--drop-duration", `${randomBetween(1800, 2600)}ms`);
     dropDelay += randomBetween(220, 650);
+    frame.addEventListener("animationstart", (event) => {
+      if (event.animationName === "polaroid-glide") {
+        frame.classList.remove("is-landed");
+      }
+    });
+    frame.addEventListener("animationend", (event) => {
+      if (event.animationName === "polaroid-glide") {
+        frame.classList.add("is-landed");
+      }
+    });
 
     image.src = `/images/gallery/${src}`;
     image.alt = "";
@@ -93,8 +128,9 @@ if (heroArt && polaroids) {
       const targetX = frame.offsetLeft + frame.offsetWidth / 2;
       const targetY = frame.offsetTop + frame.offsetHeight / 2;
       const entryX = artBounds.width * parseFloat(frame.style.getPropertyValue("--entry-x")) / 100;
+      const entryY = artBounds.height * parseFloat(frame.style.getPropertyValue("--entry-y")) / 100;
       const startX = entryX - targetX;
-      const startY = -targetY - frame.offsetHeight * parseFloat(frame.style.getPropertyValue("--entry-y"));
+      const startY = entryY - targetY;
 
       frame.style.setProperty("--start-x", `${startX}px`);
       frame.style.setProperty("--start-y", `${startY}px`);

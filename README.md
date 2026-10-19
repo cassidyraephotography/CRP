@@ -16,7 +16,7 @@ Then open <http://localhost:8000>.
 
 - `/` — one continuous page with photography services, three portrait packages, and an inquiry form at the bottom.
 - `images/gallery/` — locally stored photographs copied from the previous portfolio; selected images illustrate the packages.
-- The hero collage is overlaid with 26 portfolio-photo polaroids that glide in from above at varied angles and settle into an overlapping pile. All cards show photos; none flip or land blank-side-up. The sequence replays after the collage leaves and re-enters view; reduced-motion preferences show the cards without animation.
+- The hero collage is overlaid with 26 portfolio-photo polaroids that glide in from randomized positions above, beside, and within the frame at varied angles, scaling down as they settle into an overlapping pile. All cards show photos; none flip or land blank-side-up. The sequence replays after the collage leaves and re-enters view; reduced-motion preferences show the cards without animation.
 - The visual theme uses one continuous warm off-white cold-pressed watercolor-paper texture, soft calligraphic headings, and spaced small-size serif copy.
 - `images/gallery.json` — retained collection data for the full set of migrated portfolio photographs.
 - `/home`, `/gallery-1`, `/portrait-session-pricing`, `/gallery/`, and `/pricing/` — compatibility redirects to the matching section of the single page.
